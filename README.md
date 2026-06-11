@@ -1,94 +1,135 @@
 # EV ADAS STM32 Project 🚗
 
-Embedded Systems based EV ADAS (Advanced Driver Assistance System) project using STM32 Blue Pill, STM32CubeIDE, Embedded C, and PICSimLab.
+Embedded Systems based EV ADAS (Advanced Driver Assistance System) simulation project using STM32 Blue Pill, STM32CubeIDE, and PICSimLab.
+
+This project series demonstrates multiple automotive safety and driver assistance features using embedded C programming, ultrasonic sensors, LEDs, UART communication, and real-time decision logic.
 
 ---
 
-# 📌 Project Overview
+# 🔧 Technologies Used
 
-This repository contains a complete step-by-step EV ADAS development journey built using STM32 microcontrollers and multiple sensor integrations.
-
-The goal of this project is to simulate real automotive safety systems such as:
-
-* Collision Warning
-* Blind Spot Detection
-* Lane Change Assist
-* Multi-Sensor Monitoring
-* Adaptive Safety Logic
+* STM32F103C8T6 Blue Pill
+* STM32CubeIDE
+* Embedded C
+* PICSimLab
+* UART Communication
+* HC-SR04 Ultrasonic Sensor
+* Timers & GPIO
+* Real-time Sensor Monitoring
 
 ---
 
-# ✅ Completed Modules
+# 📅 Completed Modules
 
-## 🔹 Day 1 — LED Blink
+## ✅ Day 1 — LED Blink
 
 * STM32 GPIO basics
-* LED control using HAL drivers
+* LED interfacing
+* Embedded project setup
 
 ---
 
-## 🔹 Day 2 — ADC Sensor Inputs
+## ✅ Day 2 — ADC Sensor Input
 
 * Analog sensor reading
-* UART monitoring
 * Potentiometer interfacing
-* ADC configuration
+* UART monitoring
 
 ---
 
-## 🔹 Day 3 — Ultrasonic Sensor Integration
+## ✅ Day 3 — Ultrasonic Sensor Interface
 
 * HC-SR04 integration
 * Distance measurement
 * Timer-based microsecond delay
-* UART distance monitoring
 
 ---
 
-## 🔹 Day 4 — Collision Warning System
+## ✅ Day 4 — Collision Warning System
 
-* Distance-based WARNING/DANGER alerts
-* Real-time UART monitoring
-* Obstacle safety logic
+* Obstacle detection
+* Warning and danger alerts
+* UART-based monitoring
 
 ---
 
-## 🔹 Day 5 — Multi Sensor ADAS
+## ✅ Day 5 — Multi Sensor ADAS
 
 * Front obstacle detection
 * Left obstacle detection
 * Right obstacle detection
-* Multi-sensor monitoring system
+* Multi-sensor safety logic
 
 ---
 
-## 🔹 Day 7 — Blind Spot Detection System
+## ✅ Day 6 — Blind Spot Detection
 
-Implemented dual-side obstacle monitoring using STM32 and HC-SR04 ultrasonic sensors with:
-
-* LED alerts
-* UART debugging
-* Real-time side obstacle monitoring
+* Side obstacle monitoring
+* Blind spot warning system
+* LED indication alerts
 
 ---
 
-## 🔹 Day 8 — Lane Change Assist System
+## ✅ Day 7 — Lane Change Assist
 
-Developed a lane safety assistance system capable of:
-
-* Left lane obstacle detection
-* Right lane obstacle detection
-* Dual-side blocked detection
-* Buzzer warning alerts
-* LED status indicators
-* UART live monitoring
+* Lane safety monitoring
+* Side collision prevention
+* Buzzer + LED warnings
 
 ---
 
-# 🛠 Hardware Used
+## ✅ Day 8 — Adaptive Cruise Control
+
+* Distance-based speed logic
+* Safe following distance simulation
+* Real-time obstacle response
+
+---
+
+## ✅ Day 9 — Automatic Emergency Braking
+
+* Emergency braking simulation
+* Danger zone detection
+* Safety alert system
+
+---
+
+## ✅ Day 10 — Reverse Parking Assist
+
+* Parking assistance simulation
+* Distance-based buzzer system
+* LED parking indication
+
+---
+
+## ✅ Day 11 — Driver Drowsiness Alert
+
+* Driver attention monitoring
+* Continuous danger detection
+* Drowsiness alert logic
+
+---
+
+## ✅ Day 12 — Smart Parking System
+
+* Smart parking assistance
+* Multi-level parking warnings
+* Real-time UART monitoring
+
+---
+
+## ✅ Day 13 — Automatic Emergency Braking Advanced
+
+* Brake-ready detection
+* Multi-stage emergency response
+* Continuous safety alerts
+
+---
+
+# 🛠 Hardware Components
 
 * STM32 Blue Pill (STM32F103C8T6)
-* HC-SR04 Ultrasonic Sensors
+* HC-SR04 Ultrasonic Sensor
 * LEDs
 * Buzzer
 * Potentiometers
@@ -99,40 +140,32 @@ Developed a lane safety assistance system capable of:
 # 💻 Software Used
 
 * STM32CubeIDE
-* Embedded C
-* STM32 HAL Drivers
 * PICSimLab
 * VS Code
 * Git & GitHub
 
 ---
 
-# 🚀 Future Goals
+# 📷 Project Screenshots
 
-* Adaptive Cruise Control (ACC)
-* Automatic Emergency Braking
-* OLED Dashboard
-* CAN Communication
-* IoT-based Vehicle Monitoring
-* AI-assisted ADAS Logic
+Screenshots and simulation outputs are available inside the `images/` folder.
 
 ---
 
-# 📷 Project Screenshots
+# 🚀 Future Improvements
 
-Add simulation screenshots inside the `/images` folder.
-
-Suggested screenshots:
-
-* UART terminal outputs
-* Sensor monitoring
-* SAFE / WARNING states
-* LED indications
-* PICSimLab full setup
+* PWM Motor Control
+* Servo Steering Assist
+* CAN Bus Communication
+* ESP32 IoT Integration
+* OLED Dashboard
+* FreeRTOS Integration
+* AI-based ADAS
+* Computer Vision Integration
 
 ---
 
 # 👨‍💻 Author
 
 Abhiney Kumar
-ECE Student | Embedded Systems | IoT | STM32 | ADAS
+ECE Student | Embedded Systems | IoT | Automotive ADAS
