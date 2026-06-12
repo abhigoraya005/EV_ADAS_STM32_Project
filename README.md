@@ -124,6 +124,15 @@ This project series demonstrates multiple automotive safety and driver assistanc
 * Multi-stage emergency response
 * Continuous safety alerts
 
+## 🚗 Python Live Dashboard
+
+Integrated a live Python visualization dashboard using matplotlib for EV ADAS distance monitoring.
+
+### Features
+- Real-time graph plotting
+- Distance monitoring visualization
+- Python + STM32 integration
+- PICSimLab simulation support
 ---
 
 # 🛠 Hardware Components
